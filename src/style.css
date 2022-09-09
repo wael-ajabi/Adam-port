@@ -1054,6 +1054,10 @@ border: 4px solid #ffffff85;
 
 @media (min-width: 1280px) and (min-height:650px) {
     
+    .hamburger{
+        left: 7% !important;
+    }
+
     .close-button{
         width: 40px;
         height: 40px;
@@ -1086,6 +1090,10 @@ border: 4px solid #ffffff85;
 
 @media (min-width: 1280px) and (min-height:720px) {
     
+    .hamburger{
+        left: 7% !important;
+    }
+
     .close-button{
         width: 40px;
         height: 40px;
@@ -1115,6 +1123,11 @@ border: 4px solid #ffffff85;
         
     }
     @media (min-width: 1280px) and (min-height:960px) {
+
+        .hamburger{
+            left: 7% !important;
+        }
+
         .modal{height: 55% !important;}
         
     .close-button{
