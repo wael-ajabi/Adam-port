@@ -1,0 +1,71 @@
+/*!
+ * Timm
+ *
+ * Immutability helpers with fast reads and acceptable writes.
+ *
+ * @copyright Guillermo Grau Panea 2016
+ * @license MIT
+ */
+
+/*!
+ * Webflow._ (aka) Underscore.js 1.6.0 (custom build)
+ * _.each
+ * _.map
+ * _.find
+ * _.filter
+ * _.any
+ * _.contains
+ * _.delay
+ * _.defer
+ * _.throttle (webflow)
+ * _.debounce
+ * _.keys
+ * _.has
+ * _.now
+ *
+ * http://underscorejs.org
+ * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ * Underscore may be freely distributed under the MIT license.
+ * @license MIT
+ */
+
+/*!
+ * Webflow: Front-end site library
+ * @license MIT
+ * Inline scripts may access the api using an async handler:
+ *   var Webflow = Webflow || [];
+ *   Webflow.push(readyFunction);
+ */
+
+/*!
+ * accounting.js v0.4.1
+ * Copyright 2014 Open Exchange Rates
+ *
+ * Freely distributable under the MIT license.
+ * Portions of accounting.js are inspired or borrowed from underscore.js
+ *
+ * Full details and documentation:
+ * http://openexchangerates.github.io/accounting.js/
+ */
+
+/*!
+ * tram.js v0.8.2-global
+ * Cross-browser CSS3 transitions in JavaScript
+ * https://github.com/bkwld/tram
+ * MIT License
+ */
+
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
+
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
+***************************************************************************** */

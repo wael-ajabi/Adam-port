@@ -47,7 +47,18 @@
                 
             }
             
+            html,body{
+                overscroll-behavior-y: none;
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                overflow: hidden;
+                
+            }
+
+
             .body{
+
               overflow: hidden !important;
               overflow-y: hidden !important;
               position: fixed !important;
@@ -129,7 +140,7 @@ height: 50% !important;
 position: absolute;
 bottom: 0px !important;
 top: 50%  !important;
-width: 40% !important;
+width: 30% !important;
 padding-bottom: 0px !important;
 /* padding: 2.4em; */
 }
@@ -146,7 +157,19 @@ transform: translate(-50%,-50%);
 
 /* Google's Breakpoints Start Here */
 
+@media (min-width: 200px) {
+
+    .hamburger{
+        left: -5% !important;
+    }
+}
+
+
 @media (min-width: 320px) {
+
+    .hamburger{
+        left: -5% !important;
+    }
 
 .svg {
 left: 80%;
@@ -157,12 +180,16 @@ z-index: 10;
 }
 
 .close-button{
-margin-top: .8em !important;
+    width: 30px;
+    height: 30px;
+    margin-top: .5em !important;
+    margin-right: .5em !important;
+       
 }
 
 .modal{
     border-radius: 2vh !important;
-height: 64% !important;
+height: 55% !important;
 width: 90% !important;
 position: absolute;
 bottom: 0px !important;
@@ -185,7 +212,7 @@ font-family: Helvetica, Arial, sans-serif;
 text-align: center;
 line-height: 22px;
 font-size: 1rem;
-margin-bottom: 1.8em;
+margin-bottom: 1em;
 letter-spacing: .2px;
 }
 
@@ -194,7 +221,7 @@ letter-spacing: .2px;
 
 position: absolute;
 top: 0% !important;
-right: 8% !important;;
+right: 0% !important;;
 font-size: 1px !important;
 padding-top: 0px !important;
 
@@ -232,6 +259,12 @@ border: 4px solid #ffffff85;
 }
 
 @media (min-width: 390px) {
+
+    
+
+    .hamburger{
+        left: -5% !important;
+    }
     .svg {
         left: 85%;
         width: 15%;
@@ -241,22 +274,20 @@ border: 4px solid #ffffff85;
         }
         
         .close-button{
-            margin-top: .5em !important;
+            width: 30px;
+            height: 30px;
+            margin-top: .7em !important;
             margin-right: .7em !important;
-            border: 3px solid lightgrey !important;
-            border-color: lightgrey !important;
-            border-radius: 50% !important;
-            padding: 1%;
-            background-color: lightgrey !important;       
+                      
         }
         
         .modal{
-            border-radius: 3vh !important;
-        height: 50% !important;
+        border-radius: 10% !important;
+        height: 55% !important;
         width: 90% !important;
         position: absolute;
         bottom: 0px !important;
-        top: 65%  !important;
+        top: 50%  !important;
         padding: 2em;
         }
         
@@ -272,17 +303,17 @@ border: 4px solid #ffffff85;
         margin-top: 25px;
         font-family: Helvetica, Arial, sans-serif;
         text-align: center;
-        line-height: 22px;
-        font-size: 1.1rem;
-        margin-bottom: 2.5em;
+        line-height: 25px;
+        font-size: 1rem;
         letter-spacing: .2px;
+        margin-bottom: 1rem;
         }
         
         .modal-header{
         
         position: absolute;
         top: 0% !important;
-        right: 1% !important;;
+        right: 0% !important;;
         font-size: 1px !important;
         padding-top: 0px !important;
         
@@ -290,12 +321,13 @@ border: 4px solid #ffffff85;
         
         
         .modal-title {
-        margin-top:1em !important;
+        margin-top:10% !important;
         /* margin-top: 0px; */
         font-family: Helvetica, Arial, sans-serif;
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: bold;
+        margin-bottom: 10%;
         letter-spacing: -4px;
         
         }
@@ -318,6 +350,16 @@ border: 4px solid #ffffff85;
 
 
 @media (min-width: 425px) {
+
+    .greenbutton{
+        border-radius: 10% !important;
+        height: auto;
+        font-weight: bold !important;
+    }
+
+    /* .hamburger{
+        left: 0% !important;
+    } */
 .svg {
 left: 85%;
 width: 15%;
@@ -327,22 +369,20 @@ z-index: 10;
 }
 
 .close-button{
-    margin-top: .5em !important;
-    margin-right: .7em !important;
-    border: 3px solid lightgrey !important;
-    border-color: lightgrey !important;
-    border-radius: 50% !important;
-    padding: 1%;
-    background-color: lightgrey !important;       
+    width: 30px;
+    height: 30px;
+    margin-top: .8em !important;
+    margin-right: 1em !important;
+       
 }
 
 .modal{
-    border-radius: 3vh !important;
-height: 50% !important;
-width: 90% !important;
+border-radius: 10% !important;
+height: 57% !important;
+width: 95% !important;
 position: absolute;
 bottom: 0px !important;
-top: 65%  !important;
+top: 50%  !important;
 padding: 2em;
 }
 
@@ -355,12 +395,195 @@ padding-bottom: 10px !important;
 
 
 .modal-body {
-margin-top: 50px;
+margin-top: 30px;
 font-family: Helvetica, Arial, sans-serif;
 text-align: center;
-line-height: 22px;
+line-height: 28px;
+font-size: 1.2rem;
+margin-bottom: 10%;
+letter-spacing: .2px;
+}
+
+.modal-header{
+
+position: absolute;
+top: 0% !important;
+right: 0% !important;;
+font-size: 1px !important;
+padding-top: 0px !important;
+
+}
+
+
+.modal-title {
+margin-top: 20% !important;
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+font-size: 2.5rem;
+font-weight: bold;
+letter-spacing: -4px;
+
+}
+
+
+.label{
+
+font-size: 1em!important;
+text-align: center;
+position: absolute;
+
+width: 5.5vh;
+height: 5.5vh;
+line-height: 20px;
+border: 4px solid #ffffff85;
+
+}
+}
+
+@media (min-width: 600px) {
+    .greenbutton{
+        border-radius: 10% !important;
+        height: auto;
+        font-weight: bold !important;
+    }
+
+
+  
+.svg {
+left: 85%;
+width: 15%;
+padding-right: 20px;
+padding-top: 20px;
+z-index: 10;
+}
+
+.close-button{
+    width: 30px;
+    height: 30px;
+    margin-top: 1em !important;
+    margin-right: 1.2em !important;
+      
+}
+
+.modal{
+    border-radius: 3vh !important;
+height: 50% !important;
+width: 50% !important;
+position: absolute;
+bottom: 0px !important;
+top: 50%  !important;
+border-radius: 10% !important;
+padding: 2em;
+}
+
+.modal-footer {
+
+top: 1em !important;
+padding-bottom: 10px !important;          
+
+}
+
+
+.modal-body {
+margin-top: 25px;
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+line-height: 30px;
 font-size: 1.1rem;
-margin-bottom: 2.5em;
+margin-bottom: 10%;
+letter-spacing: .2px;
+}
+
+.modal-header{
+
+position: absolute;
+top: 0% !important;
+right: 0% !important;;
+font-size: 1px !important;
+padding-top: 0px !important;
+
+}
+
+
+.modal-title {
+margin-top:.5em !important;
+margin-bottom:.5em !important;
+/* margin-top: 0px; */
+font-family: Helvetica, Arial, sans-serif;
+
+text-align: center;
+font-size: 2.7rem;
+font-weight: bold;
+letter-spacing: -4px;
+
+}
+
+.label{
+
+font-size: 1em!important;
+text-align: center;
+position: absolute;
+
+width: 5.5vh;
+height: 5.5vh;
+line-height: 20px;
+border: 4px solid #ffffff85;
+
+}
+}
+
+
+@media (min-width: 800px) {
+    .greenbutton{
+        border-radius: 10% !important;
+        height: auto;
+        font-weight: bold !important;
+    }
+
+
+   
+.svg {
+left: 85%;
+width: 15%;
+padding-right: 20px;
+padding-top: 20px;
+z-index: 10;
+}
+
+.close-button{
+    width: 50px;
+    height: 50px;
+    margin-top: .5em !important;
+    margin-right: .7em !important;
+      
+}
+
+.modal{
+    border-radius: 3vh !important;
+height: 50% !important;
+width: 50% !important;
+position: absolute;
+bottom: 0px !important;
+top: 50%  !important;
+border-radius: 10% !important;
+padding: 2em;
+}
+
+.modal-footer {
+
+top: 1em !important;
+padding-bottom: 10px !important;          
+
+}
+
+
+.modal-body {
+margin-top: 25px;
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+line-height: 33px;
+font-size: 1.4rem;
+margin-bottom: 8%;
 letter-spacing: .2px;
 }
 
@@ -376,11 +599,12 @@ padding-top: 0px !important;
 
 
 .modal-title {
-margin-top:1em !important;
+margin-top:6% !important;
+margin-bottom:1em !important;
 /* margin-top: 0px; */
 font-family: Helvetica, Arial, sans-serif;
 text-align: center;
-font-size: 3rem;
+font-size: 2.7rem;
 font-weight: bold;
 letter-spacing: -4px;
 
@@ -402,13 +626,13 @@ border: 4px solid #ffffff85;
 }
 
 
-
 /* Apple's Start here */
 
 /* Landscape*/
 
 @media (min-width: 1024px) {
 
+ 
     
     
 .svg {
@@ -419,18 +643,17 @@ z-index: 10;
 }
 
 .close-button{
+    width: 50px;
+    height: 50px;
 margin-top: 1em !important;
-margin-right: 1em !important;
-border: 3px solid lightgrey !important;
-border-color: lightgrey !important;
-border-radius: 50% !important;
-padding: 3%;
-background-color: lightgrey !important;
+margin-right: 1.2em !important;
+
 }
 
 .modal{
+    border-radius: 10% !important;
     height: 60% !important;
-width: 70% !important;
+width: 35% !important;
 position: absolute;
 bottom: 0px !important;
 top: 50%  !important;
@@ -454,12 +677,11 @@ padding-bottom: 10px !important;
 }
 
 .modal-body {
-margin-top: 70px;
 font-family: Helvetica, Arial, sans-serif;
 text-align: center;
-line-height: 40px;
-font-size: 2rem;
-margin-bottom: 3em;
+line-height: 35px;
+font-size: 1.5rem;
+margin-bottom:5%;
 letter-spacing: .2px;
 font-weight: bold;
 }
@@ -469,7 +691,7 @@ font-weight: bold;
 
 position: absolute;
 top: 0% !important;
-right: 2% !important;;
+right: 0% !important;;
 font-size: 1px !important;
 padding-top: 0px !important;
 
@@ -477,7 +699,7 @@ padding-top: 0px !important;
 
 
 .modal-title {
-    margin-top:1.7em !important;
+    margin-top:15% !important;
 /* margin-top: 0px; */
 font-family: Helvetica, Arial, sans-serif;
 text-align: center;
@@ -503,8 +725,9 @@ border: 4px solid #ffffff85;
 
 
 @media (min-width: 1280px) {
-    
-    
+   .hamburger{ 
+    left: 5% !important;}
+
 
     .svg {
     left: 95%;
@@ -515,22 +738,21 @@ border: 4px solid #ffffff85;
 }
     
 .close-button{
+    width: 50px;
+    height: 50px;
         margin-top: 1em !important;
-        margin-right: 1em !important;
-        border: 3px solid lightgrey !important;
-        border-color: lightgrey !important;
-        border-radius: 50% !important;
-        padding: 3%;
-        background-color: lightgrey !important;
+        margin-right: 1.3em !important;
+  
     }
     
     .modal{
+
         height: 70% !important;
-    width: 50% !important;
+    width: 35% !important;
     position: absolute;
     bottom: 0px !important;
     top: 50%  !important;
-    border-radius: 80%;
+    border-radius: 10% !important;
     padding: 2em;
     max-height: 60%;
 }
@@ -548,9 +770,9 @@ border: 4px solid #ffffff85;
         margin-top: 5vh;
         font-family: Helvetica, Arial, sans-serif;
         text-align: center;
-        line-height: 3vh;
+        line-height: 3.5vh;
         font-size: 1.7rem;
-        margin-bottom: 3em;
+        margin-bottom: 10%;
         letter-spacing: .2px;    }
         
         
@@ -558,7 +780,7 @@ border: 4px solid #ffffff85;
             
             position: absolute;
     top: 0% !important;
-    right: 5% !important;;
+    right: 0% !important;;
     font-size: 1px !important;
     padding-top: 0px !important;
     
@@ -566,7 +788,7 @@ border: 4px solid #ffffff85;
     
 
     .modal-title {
-        margin-top:2.5em !important;
+        margin-top:15% !important;
     /* margin-top: 0px; */
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
@@ -600,18 +822,17 @@ z-index: 10;
 }
 
 .close-button{
-    margin-top: 1.5em !important;
-    margin-right: 1em !important;
-    border: 3px solid lightgrey !important;
-    border-color: lightgrey !important;
-    border-radius: 50% !important;
-    padding: 5%;
-    background-color: lightgrey !important;
+    width: 35px !important;
+    height: 35px !important;
+    margin-top: 1em !important;
+    margin-right: 1.3em !important;
+
 }
 
 .modal{
+border-radius: 10% !important;
 height: 60% !important;
-width: 50% !important;
+width: 30% !important;
 position: absolute;
 bottom: 0px !important;
 top: 50%  !important;
@@ -627,12 +848,12 @@ padding-bottom: 10px !important;
 
 
 .modal-body {
-    margin-top: 5.5vh;
+    margin-top: 3.5vh;
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
-    line-height: 3vh;
-    font-size: 2rem;
-    margin-bottom: 3em;
+    line-height: 3.5vh;
+    font-size: 1.5rem;
+    margin-bottom: 10%;
     letter-spacing: .2px;
 }
 
@@ -642,7 +863,7 @@ padding-bottom: 10px !important;
 
 position: absolute;
 top: 0% !important;
-right: 8% !important;;
+right: 0% !important;;
 font-size: 1px !important;
 padding-top: 0px !important;
 
@@ -650,7 +871,8 @@ padding-top: 0px !important;
 
 
 .modal-title {
-margin-top:2em !important;
+margin-top:15% !important;
+margin-bottom:1.2em !important;
 /* margin-top: 0px; */
 font-family: Helvetica, Arial, sans-serif;
 text-align: center;
@@ -686,18 +908,17 @@ border: 4px solid #ffffff85;
     }
     
     .close-button{
-        margin-top: 1.5em !important;
-        margin-right: 1em !important;
-        border: 3px solid lightgrey !important;
-        border-color: lightgrey !important;
-        border-radius: 50% !important;
-        padding: 5%;
-        background-color: lightgrey !important;
+        margin-top: 1em !important;
+        margin-right: 1.3em !important;
+        width: 40px;
+        height: 40px;
+    
     }
     
     .modal{
+        border-radius: 10% !important;
     height: 100% !important;
-    width: 50% !important;
+    width: 27% !important;
     position: absolute;
     bottom: 0px !important;
     top: 50%  !important;
@@ -713,12 +934,12 @@ border: 4px solid #ffffff85;
     
     
     .modal-body {
-        margin-top: 5.5vh;
+        margin-top: 5vh;
         font-family: Helvetica, Arial, sans-serif;
         text-align: center;
-        line-height: 3vh;
-        font-size: 2rem;
-        margin-bottom: 3em;
+        line-height: 3.7vh;
+        font-size: 1.5rem;
+        margin-bottom: 4%;
         letter-spacing: .2px;
     }
     
@@ -728,7 +949,7 @@ border: 4px solid #ffffff85;
     
     position: absolute;
     top: 0% !important;
-    right: 8% !important;;
+    right: 0% !important;;
     font-size: 1px !important;
     padding-top: 0px !important;
     
@@ -736,7 +957,7 @@ border: 4px solid #ffffff85;
     
     
     .modal-title {
-    margin-top:2em !important;
+    margin-top:15%!important;
     /* margin-top: 0px; */
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
@@ -772,18 +993,15 @@ border: 4px solid #ffffff85;
     }
     
     .close-button{
-        margin-top: 1.5em !important;
-        margin-right: 1em !important;
-        border: 3px solid lightgrey !important;
-        border-color: lightgrey !important;
-        border-radius: 50% !important;
-        padding: 5%;
-        background-color: lightgrey !important;
+        margin-top: 1em !important;
+    margin-right: 1.2em !important;  
+
     }
     
     .modal{
+        border-radius: 10% !important;
     height: 60% !important;
-    width: 40% !important;
+    width: 27% !important;
     position: absolute;
     bottom: 0px !important;
     top: 50%  !important;
@@ -802,19 +1020,19 @@ border: 4px solid #ffffff85;
         margin-top: 5.5vh;
         font-family: Helvetica, Arial, sans-serif;
         text-align: center;
-        line-height: 3vh;
-        font-size: 2rem;
-        margin-bottom: 3em;
+        line-height: 3.5vh;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 2em;
         letter-spacing: .2px;
     }
     
     
     
     .modal-header{
-    
     position: absolute;
     top: 0% !important;
-    right: 8% !important;;
+    right: 2em !important;;
     font-size: 1px !important;
     padding-top: 0px !important;
     
@@ -822,11 +1040,11 @@ border: 4px solid #ffffff85;
     
     
     .modal-title {
-    margin-top:2em !important;
+    margin-top:15% !important;
     /* margin-top: 0px; */
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.7rem;
     font-weight: bold;
     letter-spacing: -4px;
     
@@ -847,7 +1065,88 @@ border: 4px solid #ffffff85;
     
     }
     
-
+    @media (min-width: 2000px) {
+        .svg {
+        left: 92%;
+        width: 8%;
+        padding-right: 20px;
+        padding-top: 20px;
+        z-index: 10;
+        }
+        
+        .close-button{
+            margin-top: 1em !important;
+        margin-right: 1.2em !important;  
+       
+        }
+        
+        .modal{
+            border-radius: 10% !important;
+        height: 100% !important;
+        width: 35% !important;
+        position: absolute;
+        bottom: 0px !important;
+        top: 50%  !important;
+        padding: 2em;
+        }
+        
+        .modal-footer {
+        
+        top: 1em !important;
+        padding-bottom: 10px !important;          
+        
+        }
+        
+        
+        .modal-body {
+            margin-top: 5.5vh;
+            font-family: Helvetica, Arial, sans-serif;
+            text-align: center;
+            line-height: 3.5vh;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 2.5em;
+            letter-spacing: .2px;
+        }
+        
+        
+        
+        .modal-header{
+        position: absolute;
+        top: 0% !important;
+        right: 2em !important;;
+        font-size: 1px !important;
+        padding-top: 0px !important;
+        
+        }
+        
+        
+        .modal-title {
+        margin-top:15% !important;
+        /* margin-top: 0px; */
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        font-size: 3.7rem;
+        font-weight: bold;
+        letter-spacing: -4px;
+        
+        }
+        
+        
+        .label{
+        
+        font-size: 1em!important;
+        text-align: center;
+        position: absolute;
+        width: 5.5vh;
+        height: 5.5vh;
+        line-height: 15px;
+        border: 4px solid #ffffff85;
+        
+        }
+        
+        }
+    
 
 
 
@@ -982,7 +1281,7 @@ cursor: pointer;
 border: none;
 outline: none;
 background: none;
-font-size: 2.25rem;
+font-size: 2rem;
 font-weight: lighter;
 
 }
@@ -9300,7 +9599,7 @@ blockquote {
   position: absolute;
   left: 0%;
   top: 0%;
-  right: 0%;
+  right: 0% ;
   bottom: 0%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -9739,8 +10038,8 @@ blockquote {
 
 .hamburger {
   position: relative;
-  left: auto;
-  top: 0%;
+  left: 5%;
+  top: 115;
   right: 0%;
   bottom: auto;
   z-index: 10;
@@ -9826,7 +10125,7 @@ blockquote {
   left: 0%;
   top: 0%;
   right: 0%;
-  bottom: auto;
+  bottom: 100;
   z-index: 100;
   height: 100px;
   border: 0px none #fff;
@@ -9905,7 +10204,7 @@ blockquote {
   border-style: solid;
   border-width: 1px;
   border-color: #f1f3f4;
-  border-radius: 100px;
+  border-radius: 50%;
   background-color: #fff;
   color: #212121;
 }
@@ -24837,10 +25136,7 @@ textarea.w-select {
 .w-nav-button:focus {
   outline: 0;
 }
-.w-nav-button.w--open {
-  background-color: #ffff;
-  color: white;
-}
+
 .w-nav[data-collapse="all"] .w-nav-menu {
   display: none;
 }
