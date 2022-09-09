@@ -727,56 +727,6 @@ border: 4px solid #ffffff85;
 }
 }
 
-@media (min-width: 1024px) and (min-height:768px) {
-
-    .close-button{
-        width: 35px;
-        height: 35px;
-    margin-top: .7em !important;
-    margin-right: .8em !important;
-    
-    }
-
-    .modal-title {
-        margin-top: 10% !important;
-        /* margin-top: 0px; */
-        font-family: Helvetica, Arial, sans-serif;
-        text-align: center;
-        font-size: 3rem;
-        font-weight: bolder;
-        letter-spacing: -4px;
-        margin-bottom: 0.5em !important;
-    }
-
-    .modal-body {
-        font-family: Helvetica, Arial, sans-serif;
-        text-align: center;
-        line-height: 35px;
-        font-size: 1.4rem;
-        margin-bottom: 5%;
-        letter-spacing: .2px;
-        font-weight: bold;
-    }
-
-    .modal {
-        border-radius: 10% !important;
-        height: 60% !important;
-        width: 40% !important;
-        position: absolute;
-        bottom: 0px !important;
-        top: 50% !important;
-        padding: 2em;
-        max-height: 60%;
-    }
-    .hamburger{ 
-        left: 1% !important;}
-
-
-
-
-
-} 
-
 
 @media (min-width: 1280px) {
     .hamburger{ 
@@ -866,15 +816,66 @@ border: 4px solid #ffffff85;
 }
 }
 
-@media (min-width: 1280px) and (min-height:720px) {
+@media (min-width: 1024px) and (min-height:600px) {
 
+    .close-button{
+        width: 35px;
+        height: 35px;
+    margin-top: .7em !important;
+    margin-right: .8em !important;
+    
+    }
+
+    .modal-title {
+        margin-top: 10% !important;
+        /* margin-top: 0px; */
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        letter-spacing: -4px;
+        margin-bottom: 0.5em !important;
+    }
+
+    .modal-body {
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        line-height: 35px;
+        font-size: 1.4rem;
+        margin-bottom: 5%;
+        letter-spacing: .2px;
+        font-weight: bold;
+    }
+
+    .modal {
+        border-radius: 10% !important;
+        height: 60% !important;
+        width: 40% !important;
+        position: absolute;
+        bottom: 0px !important;
+        top: 50% !important;
+        padding: 2em;
+        max-height: 60%;
+    }
+    .hamburger{ 
+        left: 1% !important;}
+
+
+
+
+
+} 
+
+
+@media (min-width: 1280px) and (min-height:720px) {
+    
     .close-button{
         width: 40px;
         height: 40px;
-            margin-top: .7em !important;
-            margin-right: .9em !important;
+        margin-top: .7em !important;
+        margin-right: .9em !important;
       
-        }
+    }
         .modal-title {
             margin-top: 10% !important;
             /* margin-top: 0px; */
@@ -894,18 +895,25 @@ border: 4px solid #ffffff85;
             margin-bottom: 5%;
             letter-spacing: .2px;
         }
+        
+    }
+    @media (min-width: 1280px) and (min-height:960px) {
+        .modal{height: 55% !important;}
+    
+    
+    }
 
-}
-@media (min-width: 1440px) {
-.svg {
-left: 92%;
-width: 8%;
-padding-right: 20px;
-padding-top: 20px;
-z-index: 10;
-}
 
-.close-button{
+    @media (min-width: 1440px) {
+        .svg {
+            left: 92%;
+            width: 8%;
+            padding-right: 20px;
+            padding-top: 20px;
+            z-index: 10;
+        }
+        
+        .close-button{
     width: 35px !important;
     height: 35px !important;
     margin-top: 1em !important;
