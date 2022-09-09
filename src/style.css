@@ -1,0 +1,1368 @@
+ /* *{
+                overflow: hidden !important;
+                  overflow-y: hidden !important;
+              } */
+              .my-class{
+                background-color: brown;
+                margin-top: 200px  !important;
+                overflow: hidden !important;
+                overflow-y: hidden !important;
+            }
+
+            .loading-bar
+            {
+            position:absolute;
+            top: 90%;
+            left: 0px;
+            width: 100%;
+            height: 10%;
+            background: #3d79e1; 
+            transform: scaleX(0);
+            transform-origin: top left;
+            transition: transform 0.5s;
+            will-change: transform;
+            overflow: hidden !important;
+            overflow-y: hidden !important;
+            }
+
+            .loading-bar.ended
+            {
+
+                transform-origin: 100% 0;
+                transition: transform 1.5s ease-in-out;
+                overflow: hidden !important;
+                overflow-y: hidden !important;
+            }
+
+            .webgl
+            {
+                position: fixed !important;
+                top: 0 !important;
+                right: 0 !important;
+                bottom: 0 !important;
+                left: 0 !important;
+                outline: none !important;
+                overflow: hidden !important;
+                overflow-y: hidden !important;
+                
+            }
+            
+            html,body{
+                overscroll-behavior-y: none;
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                overflow: hidden;
+                
+            }
+
+
+            .body{
+
+              overflow: hidden !important;
+              overflow-y: hidden !important;
+              position: fixed !important;
+                top: 0 !important;
+                right: 0 !important;
+                bottom: 0 !important;
+                left: 0 !important;
+            
+            }
+            #zone{
+                cursor: pointer;
+                position: absolute;
+                z-index: 1;
+                top: 80%;
+                left: 50%;
+            }
+        
+            .is-ios * {
+                cursor: pointer;
+                overflow: hidden !important;
+            overflow-y: hidden !important;
+            }
+            .svg{
+              left: 97%;
+              width: 3%;
+              z-index: 10;
+              position:absolute;
+              overflow: hidden !important;
+              overflow-y: hidden !important;
+
+}
+.point
+{
+position: fixed !important;
+top: 50%;
+left: 50%;
+/* pointer-events: none; */
+              
+}
+
+.point .label
+{
+overflow: hidden !important;
+position: absolute;
+/* top: -30px;
+left: -30px; */
+/* width: 7vh;
+height: 7vh; */
+border-radius: 50%;
+background: #00000077;
+/* border: 4px solid #ffffff; */
+color: #ffffff;
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+/* line-height: 42px; */
+font-weight: bolder;
+font-size: 16px;
+cursor: help;
+transform: scale(0, 0);
+transition: transform 0.3s;
+overflow: hidden !important;
+overflow-y: hidden !important;
+
+padding: 10px 10px;
+
+text-align: center;
+}
+
+.linkclass{
+font-family: Helvetica, Arial, sans-serif;
+font-size: 60px;
+font-weight: bolder;
+
+}
+
+
+.modal{
+height: 50% !important;
+position: absolute;
+bottom: 0px !important;
+top: 50%  !important;
+width: 30% !important;
+padding-bottom: 0px !important;
+/* padding: 2.4em; */
+}
+
+.label{
+display: flex;align-items: center;justify-content: center;flex-direction: column;
+      top: 50%;
+right: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+
+
+/* Google's Breakpoints Start Here */
+
+@media (min-width: 200px) {
+
+    .hamburger{
+        left: -5% !important;
+    }
+}
+
+
+@media (min-width: 320px) {
+
+    .hamburger{
+        left: -5% !important;
+    }
+
+.svg {
+left: 80%;
+width: 20%;
+padding-right: 20px;
+padding-top: 20px;
+z-index: 10;
+}
+
+.close-button{
+    width: 30px;
+    height: 30px;
+    margin-top: .5em !important;
+    margin-right: .5em !important;
+       
+}
+
+.modal{
+    border-radius: 2vh !important;
+height: 55% !important;
+width: 90% !important;
+position: absolute;
+bottom: 0px !important;
+top: 50%  !important;
+padding: 2em;
+
+}
+
+.modal-footer {
+
+top: 1em !important;
+padding-bottom: 10px !important;          
+
+}
+
+
+.modal-body {
+margin-top: 30px;
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+line-height: 22px;
+font-size: 1rem;
+margin-bottom: 1em;
+letter-spacing: .2px;
+}
+
+
+.modal-header{
+
+position: absolute;
+top: 0% !important;
+right: 0% !important;;
+font-size: 1px !important;
+padding-top: 0px !important;
+
+}
+
+
+.modal-title {
+margin-top:1em !important;
+/* margin-top: 0px; */
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+font-size: 3rem;
+font-weight: bold;
+letter-spacing: -4px;
+
+}
+
+
+.label{
+
+font-size: 1em!important;
+text-align: center;
+position: absolute;
+
+width: 5.5vh;
+height: 5.5vh;
+line-height: 20px;
+border: 4px solid #ffffff85;
+
+}
+
+
+
+
+}
+
+@media (min-width: 390px) {
+
+    
+
+    .hamburger{
+        left: -5% !important;
+    }
+    .svg {
+        left: 85%;
+        width: 15%;
+        padding-right: 20px;
+        padding-top: 20px;
+        z-index: 10;
+        }
+        
+        .close-button{
+            width: 30px;
+            height: 30px;
+            margin-top: .7em !important;
+            margin-right: .7em !important;
+                      
+        }
+        
+        .modal{
+        border-radius: 10% !important;
+        height: 55% !important;
+        width: 90% !important;
+        position: absolute;
+        bottom: 0px !important;
+        top: 50%  !important;
+        padding: 2em;
+        }
+        
+        .modal-footer {
+        
+        top: 1em !important;
+        padding-bottom: 10px !important;          
+        
+        }
+        
+        
+        .modal-body {
+        margin-top: 25px;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        line-height: 25px;
+        font-size: 1rem;
+        letter-spacing: .2px;
+        margin-bottom: 1rem;
+        }
+        
+        .modal-header{
+        
+        position: absolute;
+        top: 0% !important;
+        right: 0% !important;;
+        font-size: 1px !important;
+        padding-top: 0px !important;
+        
+        }
+        
+        
+        .modal-title {
+        margin-top:10% !important;
+        /* margin-top: 0px; */
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 10%;
+        letter-spacing: -4px;
+        
+        }
+        
+        
+        .label{
+        
+        font-size: 1em!important;
+        text-align: center;
+        position: absolute;
+        
+        width: 5.5vh;
+        height: 5.5vh;
+        line-height: 20px;
+        border: 4px solid #ffffff85;
+        
+        }
+
+}
+
+
+@media (min-width: 425px) {
+
+    .greenbutton{
+        border-radius: 10% !important;
+        height: auto;
+        font-weight: bold !important;
+    }
+
+    /* .hamburger{
+        left: 0% !important;
+    } */
+.svg {
+left: 85%;
+width: 15%;
+padding-right: 20px;
+padding-top: 20px;
+z-index: 10;
+}
+
+.close-button{
+    width: 30px;
+    height: 30px;
+    margin-top: .8em !important;
+    margin-right: 1em !important;
+       
+}
+
+.modal{
+border-radius: 10% !important;
+height: 57% !important;
+width: 95% !important;
+position: absolute;
+bottom: 0px !important;
+top: 50%  !important;
+padding: 2em;
+}
+
+.modal-footer {
+
+top: 1em !important;
+padding-bottom: 10px !important;          
+
+}
+
+
+.modal-body {
+margin-top: 30px;
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+line-height: 28px;
+font-size: 1.2rem;
+margin-bottom: 10%;
+letter-spacing: .2px;
+}
+
+.modal-header{
+
+position: absolute;
+top: 0% !important;
+right: 0% !important;;
+font-size: 1px !important;
+padding-top: 0px !important;
+
+}
+
+
+.modal-title {
+margin-top: 20% !important;
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+font-size: 2.5rem;
+font-weight: bold;
+letter-spacing: -4px;
+
+}
+
+
+.label{
+
+font-size: 1em!important;
+text-align: center;
+position: absolute;
+
+width: 5.5vh;
+height: 5.5vh;
+line-height: 20px;
+border: 4px solid #ffffff85;
+
+}
+}
+
+@media (min-width: 600px) {
+    .greenbutton{
+        border-radius: 10% !important;
+        height: auto;
+        font-weight: bold !important;
+    }
+
+
+  
+.svg {
+left: 85%;
+width: 15%;
+padding-right: 20px;
+padding-top: 20px;
+z-index: 10;
+}
+
+.close-button{
+    width: 30px;
+    height: 30px;
+    margin-top: 1em !important;
+    margin-right: 1.2em !important;
+      
+}
+
+.modal{
+    border-radius: 3vh !important;
+height: 50% !important;
+width: 50% !important;
+position: absolute;
+bottom: 0px !important;
+top: 50%  !important;
+border-radius: 10% !important;
+padding: 2em;
+}
+
+.modal-footer {
+
+top: 1em !important;
+padding-bottom: 10px !important;          
+
+}
+
+
+.modal-body {
+margin-top: 25px;
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+line-height: 30px;
+font-size: 1.1rem;
+margin-bottom: 10%;
+letter-spacing: .2px;
+}
+
+.modal-header{
+
+position: absolute;
+top: 0% !important;
+right: 0% !important;;
+font-size: 1px !important;
+padding-top: 0px !important;
+
+}
+
+
+.modal-title {
+margin-top:.5em !important;
+margin-bottom:.5em !important;
+/* margin-top: 0px; */
+font-family: Helvetica, Arial, sans-serif;
+
+text-align: center;
+font-size: 2.7rem;
+font-weight: bold;
+letter-spacing: -4px;
+
+}
+
+.label{
+
+font-size: 1em!important;
+text-align: center;
+position: absolute;
+
+width: 5.5vh;
+height: 5.5vh;
+line-height: 20px;
+border: 4px solid #ffffff85;
+
+}
+}
+
+
+@media (min-width: 800px) {
+    .greenbutton{
+        border-radius: 10% !important;
+        height: auto;
+        font-weight: bold !important;
+    }
+
+
+   
+.svg {
+left: 85%;
+width: 15%;
+padding-right: 20px;
+padding-top: 20px;
+z-index: 10;
+}
+
+.close-button{
+    width: 50px;
+    height: 50px;
+    margin-top: .5em !important;
+    margin-right: .7em !important;
+      
+}
+
+.modal{
+    border-radius: 3vh !important;
+height: 50% !important;
+width: 50% !important;
+position: absolute;
+bottom: 0px !important;
+top: 50%  !important;
+border-radius: 10% !important;
+padding: 2em;
+}
+
+.modal-footer {
+
+top: 1em !important;
+padding-bottom: 10px !important;          
+
+}
+
+
+.modal-body {
+margin-top: 25px;
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+line-height: 33px;
+font-size: 1.4rem;
+margin-bottom: 8%;
+letter-spacing: .2px;
+}
+
+.modal-header{
+
+position: absolute;
+top: 0% !important;
+right: 1% !important;;
+font-size: 1px !important;
+padding-top: 0px !important;
+
+}
+
+
+.modal-title {
+margin-top:6% !important;
+margin-bottom:1em !important;
+/* margin-top: 0px; */
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+font-size: 2.7rem;
+font-weight: bold;
+letter-spacing: -4px;
+
+}
+
+
+.label{
+
+font-size: 1em!important;
+text-align: center;
+position: absolute;
+
+width: 5.5vh;
+height: 5.5vh;
+line-height: 20px;
+border: 4px solid #ffffff85;
+
+}
+}
+
+
+/* Apple's Start here */
+
+/* Landscape*/
+
+@media (min-width: 1024px) {
+
+ 
+    
+    
+.svg {
+left: 95%;
+width: 5%;
+padding-top: 20px;
+z-index: 10;
+}
+
+.close-button{
+    width: 50px;
+    height: 50px;
+margin-top: 1em !important;
+margin-right: 1.2em !important;
+
+}
+
+.modal{
+    border-radius: 10% !important;
+    height: 60% !important;
+width: 35% !important;
+position: absolute;
+bottom: 0px !important;
+top: 50%  !important;
+padding: 2em;
+max-height: 60%;
+}
+
+.modal-footer {
+
+top: 1em !important;
+padding-bottom: 10px !important;          
+
+}
+.greenbutton{
+    padding-top: 3.5vh !important;
+    border-radius: 2vh !important;
+    height: 9vh !important;
+    width: 22vh;
+    font-size: 4vh!important;
+    font-weight: bold !important;
+}
+
+.modal-body {
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+line-height: 35px;
+font-size: 1.5rem;
+margin-bottom:5%;
+letter-spacing: .2px;
+font-weight: bold;
+}
+
+
+.modal-header{
+
+position: absolute;
+top: 0% !important;
+right: 0% !important;;
+font-size: 1px !important;
+padding-top: 0px !important;
+
+}
+
+
+.modal-title {
+    margin-top:15% !important;
+/* margin-top: 0px; */
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+font-size: 3.5rem;
+font-weight: bolder;
+letter-spacing: -4px;
+
+}
+
+
+.label{
+
+font-size: 1em!important;
+text-align: center;
+position: absolute;
+width: 5.5vh;
+height: 5.5vh;
+line-height: 14px;
+border: 4px solid #ffffff85;
+
+}
+}
+
+
+@media (min-width: 1280px) {
+   .hamburger{ 
+    left: 5% !important;}
+
+
+    .svg {
+    left: 95%;
+    width: 5%;
+    padding-right: 20px;
+    padding-top: 20px;
+    z-index: 10;
+}
+    
+.close-button{
+    width: 50px;
+    height: 50px;
+        margin-top: 1em !important;
+        margin-right: 1.3em !important;
+  
+    }
+    
+    .modal{
+
+        height: 70% !important;
+    width: 35% !important;
+    position: absolute;
+    bottom: 0px !important;
+    top: 50%  !important;
+    border-radius: 10% !important;
+    padding: 2em;
+    max-height: 60%;
+}
+    
+.modal-footer {
+    
+    top: 1em !important;
+    padding-bottom: 10px !important;          
+    
+}
+
+
+    .modal-body {
+        font-weight: 500 !important;
+        margin-top: 5vh;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        line-height: 3.5vh;
+        font-size: 1.7rem;
+        margin-bottom: 10%;
+        letter-spacing: .2px;    }
+        
+        
+        .modal-header{
+            
+            position: absolute;
+    top: 0% !important;
+    right: 0% !important;;
+    font-size: 1px !important;
+    padding-top: 0px !important;
+    
+}
+    
+
+    .modal-title {
+        margin-top:15% !important;
+    /* margin-top: 0px; */
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: -4px;
+    
+}
+
+
+.label{
+    
+    font-size: 1em!important;
+    text-align: center;
+    position: absolute;
+    width: 5.5vh;
+    height: 5.5vh;
+    line-height: 14px;
+    border: 4px solid #ffffff85;
+    
+}
+}
+
+@media (min-width: 1440px) {
+.svg {
+left: 92%;
+width: 8%;
+padding-right: 20px;
+padding-top: 20px;
+z-index: 10;
+}
+
+.close-button{
+    width: 35px !important;
+    height: 35px !important;
+    margin-top: 1em !important;
+    margin-right: 1.3em !important;
+
+}
+
+.modal{
+border-radius: 10% !important;
+height: 60% !important;
+width: 30% !important;
+position: absolute;
+bottom: 0px !important;
+top: 50%  !important;
+padding: 2em;
+}
+
+.modal-footer {
+
+top: 1em !important;
+padding-bottom: 10px !important;          
+
+}
+
+
+.modal-body {
+    margin-top: 3.5vh;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    line-height: 3.5vh;
+    font-size: 1.5rem;
+    margin-bottom: 10%;
+    letter-spacing: .2px;
+}
+
+
+
+.modal-header{
+
+position: absolute;
+top: 0% !important;
+right: 0% !important;;
+font-size: 1px !important;
+padding-top: 0px !important;
+
+}
+
+
+.modal-title {
+margin-top:15% !important;
+margin-bottom:1.2em !important;
+/* margin-top: 0px; */
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+font-size: 4rem;
+font-weight: bold;
+letter-spacing: -4px;
+
+}
+
+
+.label{
+
+font-size: 1em!important;
+text-align: center;
+position: absolute;
+width: 5.5vh;
+height: 5.5vh;
+line-height: 15px;
+border: 4px solid #ffffff85;
+
+}
+
+}
+
+
+@media (min-width: 1600px) {
+    .svg {
+    left: 92%;
+    width: 8%;
+    padding-right: 20px;
+    padding-top: 20px;
+    z-index: 10;
+    }
+    
+    .close-button{
+        margin-top: 1em !important;
+        margin-right: 1.3em !important;
+        width: 40px;
+        height: 40px;
+    
+    }
+    
+    .modal{
+        border-radius: 10% !important;
+    height: 100% !important;
+    width: 27% !important;
+    position: absolute;
+    bottom: 0px !important;
+    top: 50%  !important;
+    padding: 2em;
+    }
+    
+    .modal-footer {
+    
+    top: 1em !important;
+    padding-bottom: 10px !important;          
+    
+    }
+    
+    
+    .modal-body {
+        margin-top: 5vh;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        line-height: 3.7vh;
+        font-size: 1.5rem;
+        margin-bottom: 4%;
+        letter-spacing: .2px;
+    }
+    
+    
+    
+    .modal-header{
+    
+    position: absolute;
+    top: 0% !important;
+    right: 0% !important;;
+    font-size: 1px !important;
+    padding-top: 0px !important;
+    
+    }
+    
+    
+    .modal-title {
+    margin-top:15%!important;
+    /* margin-top: 0px; */
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: -4px;
+    
+    }
+    
+    
+    .label{
+    
+    font-size: 1em!important;
+    text-align: center;
+    position: absolute;
+    width: 5.5vh;
+    height: 5.5vh;
+    line-height: 15px;
+    border: 4px solid #ffffff85;
+    
+    }
+    
+    }
+    
+    
+@media (min-width: 1920px) {
+    .svg {
+    left: 92%;
+    width: 8%;
+    padding-right: 20px;
+    padding-top: 20px;
+    z-index: 10;
+    }
+    
+    .close-button{
+        margin-top: 1em !important;
+    margin-right: 1.2em !important;  
+
+    }
+    
+    .modal{
+        border-radius: 10% !important;
+    height: 60% !important;
+    width: 27% !important;
+    position: absolute;
+    bottom: 0px !important;
+    top: 50%  !important;
+    padding: 2em;
+    }
+    
+    .modal-footer {
+    
+    top: 1em !important;
+    padding-bottom: 10px !important;          
+    
+    }
+    
+    
+    .modal-body {
+        margin-top: 5.5vh;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        line-height: 3.5vh;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+        letter-spacing: .2px;
+    }
+    
+    
+    
+    .modal-header{
+    position: absolute;
+    top: 0% !important;
+    right: 2em !important;;
+    font-size: 1px !important;
+    padding-top: 0px !important;
+    
+    }
+    
+    
+    .modal-title {
+    margin-top:15% !important;
+    /* margin-top: 0px; */
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 3.7rem;
+    font-weight: bold;
+    letter-spacing: -4px;
+    
+    }
+    
+    
+    .label{
+    
+    font-size: 1em!important;
+    text-align: center;
+    position: absolute;
+    width: 5.5vh;
+    height: 5.5vh;
+    line-height: 15px;
+    border: 4px solid #ffffff85;
+    
+    }
+    
+    }
+    
+    @media (min-width: 2000px) {
+        .svg {
+        left: 92%;
+        width: 8%;
+        padding-right: 20px;
+        padding-top: 20px;
+        z-index: 10;
+        }
+        
+        .close-button{
+            margin-top: 1em !important;
+        margin-right: 1.2em !important;  
+       
+        }
+        
+        .modal{
+            border-radius: 10% !important;
+        height: 100% !important;
+        width: 35% !important;
+        position: absolute;
+        bottom: 0px !important;
+        top: 50%  !important;
+        padding: 2em;
+        }
+        
+        .modal-footer {
+        
+        top: 1em !important;
+        padding-bottom: 10px !important;          
+        
+        }
+        
+        
+        .modal-body {
+            margin-top: 5.5vh;
+            font-family: Helvetica, Arial, sans-serif;
+            text-align: center;
+            line-height: 3.5vh;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 2.5em;
+            letter-spacing: .2px;
+        }
+        
+        
+        
+        .modal-header{
+        position: absolute;
+        top: 0% !important;
+        right: 2em !important;;
+        font-size: 1px !important;
+        padding-top: 0px !important;
+        
+        }
+        
+        
+        .modal-title {
+        margin-top:15% !important;
+        /* margin-top: 0px; */
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        font-size: 3.7rem;
+        font-weight: bold;
+        letter-spacing: -4px;
+        
+        }
+        
+        
+        .label{
+        
+        font-size: 1em!important;
+        text-align: center;
+        position: absolute;
+        width: 5.5vh;
+        height: 5.5vh;
+        line-height: 15px;
+        border: 4px solid #ffffff85;
+        
+        }
+        
+        }
+    
+
+
+
+
+/* iPhone Pro */
+
+
+
+
+
+
+
+
+
+
+
+/* 1792x828px at 326ppi - iPhone 11 */
+@media only screen
+and (device-width: 414px)
+and (device-height: 896px)
+and (-webkit-device-pixel-ratio: 2) {
+.bob{overflow: hidden !important;
+   overflow-y: hidden !important;}
+body{
+overflow: hidden !important;
+overflow-y: hidden !important;
+}
+}
+
+.point .text
+{
+overflow: hidden !important;
+overflow-y: hidden !important;
+position: absolute;
+top: 30px;
+left: -120px;
+width: 200px;
+padding: 20px;
+border-radius: 4px;
+background: #00000077;
+border: 1px solid #ffffff77;
+color: #ffffff;
+font-family: Helvetica, Arial, sans-serif;
+font-weight: 100;
+font-size: 14px;
+opacity: 0;
+transition: opacity 0.3s;
+pointer-events: none;
+}
+
+.point:hover .text
+{
+opacity: 1;
+}
+
+.point.visible .label
+{
+overflow: hidden !important;
+overflow-y: hidden !important;
+transform: scale(1, 1);
+}
+*, *::after, *::before {
+
+box-sizing: border-box;
+}
+
+.modal {
+position: fixed;
+bottom: 10%;
+width: 50%;
+left: 50%;
+transform: translate(-50%, -50%) scale(0);
+transition: 200ms ease-in-out;
+border-radius: 10vh;
+z-index: 10;
+background-color: white;
+max-width: 80%;
+overflow: hidden !important;
+              overflow-y: hidden !important;
+}
+
+.fine-print-text {
+font-size: 0.3em;
+overflow: hidden !important;
+            overflow-y: hidden !important;
+}
+
+.modal.active {
+overflow: hidden !important;
+            overflow-y: hidden !important;
+transform: translate(-50%, -50%) scale(1);
+}
+
+
+
+
+.modal-header {
+padding: 0px 0px;
+
+justify-content: space-between;
+align-items: center;
+overflow: hidden !important;
+              overflow-y: hidden !important;
+/* border-bottom: 1px solid black; */
+}
+
+.fine-print {
+padding: 20px 20px;
+overflow: hidden !important;
+            overflow-y: hidden !important;
+justify-content: space-between;
+align-items: center;
+font-family: Helvetica, Sans-Serif;
+font-size: 60.5px;
+font-weight: lighter;
+}
+
+.modal-header .modal-title {
+overflow: hidden !important;
+overflow-y: hidden !important;
+font-family: Helvetica, Sans-Serif;
+font-size: 40px;
+font-weight: bold;
+
+}
+
+.close-button {
+
+overflow: hidden !important;
+overflow-y: hidden !important;
+cursor: pointer;
+border: none;
+outline: none;
+background: none;
+font-size: 2rem;
+font-weight: lighter;
+
+}
+
+
+.modal-header  {
+overflow: hidden !important;
+overflow-y: hidden !important;
+cursor: pointer;
+border: none;
+outline: none;
+background: none;
+/* font-size: 2.25rem; */
+}
+
+.modal-body {
+overflow: hidden !important;
+overflow-y: hidden !important;
+/* padding: 20px 20px; */
+font-family: Helvetica, Sans-Serif;
+/* font-size: 1.25rem; */
+font-weight: lighter;
+
+}
+
+.greenbutton {
+overflow: hidden !important;
+            overflow-y: hidden !important;
+background-color: #04AA6D;
+border-radius: 20px;
+color: white;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+/* margin: 4px 2px; */
+font-family: Helvetica, Sans-Serif;
+font-weight: bolder;
+}
+
+
+
+#overlay {
+overflow: hidden !important;
+            overflow-y: hidden !important;
+position: fixed;
+opacity: 0;
+transition: 200ms ease-in-out;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, .5);
+pointer-events: none;
+}
+
+.modal-footer {
+overflow: hidden !important;
+overflow-y: hidden !important;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#overlay.active {
+overflow: hidden !important;
+            overflow-y: hidden !important;
+opacity: 1;
+pointer-events: all;
+}
+.bob{
+overflow-y: hidden !important;
+overflow: hidden !important;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+/* @media screen and (min-width: 1080px) and (min-height:1280) {
+
+} */

@@ -1,0 +1,202 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Text",
+            "translation" : [
+                0.02237865701317787,
+                0,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Text.001",
+            "translation" : [
+                0.022947469726204872,
+                0,
+                0.2477111518383026
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Text",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Text.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1958,
+            "max" : [
+                0.7342628240585327,
+                0,
+                0.007703235372900963
+            ],
+            "min" : [
+                -0.7458176612854004,
+                0,
+                -0.3745698034763336
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1958,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1958,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 4347,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 4005,
+            "max" : [
+                0.619700014591217,
+                0,
+                0.002557221334427595
+            ],
+            "min" : [
+                -0.609897255897522,
+                0,
+                -0.1625966727733612
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 4005,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 4005,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 8931,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 23496,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23496,
+            "byteOffset" : 23496
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15664,
+            "byteOffset" : 46992
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8694,
+            "byteOffset" : 62656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48060,
+            "byteOffset" : 71352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48060,
+            "byteOffset" : 119412
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32040,
+            "byteOffset" : 167472
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17862,
+            "byteOffset" : 199512
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 217376,
+            "uri" : "TitleSix.bin"
+        }
+    ]
+}

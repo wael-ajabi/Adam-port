@@ -1,0 +1,882 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 290,
+      "max": [
+        0.9919099807739258,
+        0.9919099807739258,
+        0.8772299885749817
+      ],
+      "min": [
+        -0.9919099807739258,
+        -0.9919099807739258,
+        -0.033080000430345535
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3480,
+      "componentType": 5126,
+      "count": 290,
+      "max": [
+        0.9869667291641235,
+        0.9869667291641235,
+        1.0
+      ],
+      "min": [
+        -0.9869667291641235,
+        -0.9869667291641235,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1728,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6960,
+      "componentType": 5126,
+      "count": 256,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.7229599952697754
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 10032,
+      "componentType": 5126,
+      "count": 256,
+      "max": [
+        0.9974841475486755,
+        0.9974841475486755,
+        0.9904500842094421
+      ],
+      "min": [
+        -0.9974841475486755,
+        -0.9974841475486755,
+        -0.9904500842094421
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6912,
+      "componentType": 5125,
+      "count": 1524,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 13104,
+      "componentType": 5126,
+      "count": 460,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 18624,
+      "componentType": 5126,
+      "count": 460,
+      "max": [
+        0.9969196319580078,
+        0.9969196319580078,
+        0.9965575337409973
+      ],
+      "min": [
+        -0.9969196319580078,
+        -0.9969196319580078,
+        -0.9965575337409973
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 460,
+      "max": [
+        0.9897199869155884,
+        0.9642199873924255
+      ],
+      "min": [
+        0.011140000075101852,
+        0.3877600133419037
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3680,
+      "componentType": 5126,
+      "count": 460,
+      "max": [
+        0.9897199869155884,
+        0.9642199873924255
+      ],
+      "min": [
+        0.011140000075101852,
+        0.3877600133419037
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 13008,
+      "componentType": 5125,
+      "count": 2292,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24144,
+      "componentType": 5126,
+      "count": 78,
+      "max": [
+        0.9991400241851807,
+        1.0113199949264526,
+        0.060589998960494995
+      ],
+      "min": [
+        -0.9991400241851807,
+        -1.0328199863433838,
+        -0.23853999376296997
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 25080,
+      "componentType": 5126,
+      "count": 78,
+      "max": [
+        0.9296140074729919,
+        0.9657573103904724,
+        1.0
+      ],
+      "min": [
+        -0.9296969771385193,
+        -0.9947662949562073,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 22176,
+      "componentType": 5125,
+      "count": 456,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 26016,
+      "componentType": 5126,
+      "count": 128,
+      "max": [
+        1.0,
+        1.0,
+        1.2958400249481201
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.281440019607544
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 27552,
+      "componentType": 5126,
+      "count": 128,
+      "max": [
+        0.9999372959136963,
+        0.9999372959136963,
+        0.6938021779060364
+      ],
+      "min": [
+        -0.9999372959136963,
+        -0.9999372959136963,
+        -0.7015459537506104
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24000,
+      "componentType": 5125,
+      "count": 756,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 29088,
+      "componentType": 5126,
+      "count": 482,
+      "max": [
+        0.996999979019165,
+        0.996999979019165,
+        0.11094000190496445
+      ],
+      "min": [
+        -0.996999979019165,
+        -0.996999979019165,
+        0.000539999979082495
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 34872,
+      "componentType": 5126,
+      "count": 482,
+      "max": [
+        0.9259230494499207,
+        0.9259326457977295,
+        1.0
+      ],
+      "min": [
+        -0.9259326457977295,
+        -0.9259326457977295,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 27024,
+      "componentType": 5125,
+      "count": 2880,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 40656,
+      "componentType": 5126,
+      "count": 950,
+      "max": [
+        7.826499938964844,
+        6.314350128173828,
+        6.739190101623535
+      ],
+      "min": [
+        -2.2276699542999268,
+        -0.9154300093650818,
+        -1.0598700046539307
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 52056,
+      "componentType": 5126,
+      "count": 950,
+      "max": [
+        0.9981696009635925,
+        0.9994636178016663,
+        0.999631941318512
+      ],
+      "min": [
+        -0.9969915151596069,
+        -0.9989137053489685,
+        -0.9981951117515564
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 38544,
+      "componentType": 5125,
+      "count": 5472,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Maurice Svay (https://sketchfab.com/mauricesvay)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/hamburger-emoji-low-poly-f62974b78d244172b4162bce312188b3",
+      "title": "🍔 Hamburger emoji (Low poly)"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 60432,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7360,
+      "byteOffset": 60432,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 63456,
+      "byteOffset": 67792,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 131248,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat"
+  ],
+  "images": [
+    {
+      "uri": "textures/steak_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Sesame",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8307698369,
+          0.5840784907,
+          0.3564002216,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 1.0,
+          "clearcoatRoughnessFactor": 0.04
+        }
+      },
+      "name": "Salad",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3915724754,
+          0.8069523573,
+          0.0722718462,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.2273246951
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 1.0,
+          "clearcoatRoughnessFactor": 0.04
+        }
+      },
+      "name": "Tomato",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8307698369,
+          0.0612460561,
+          0.0561284944,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.2
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 1.0,
+          "clearcoatRoughnessFactor": 0.04
+        }
+      },
+      "name": "Cheese",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.5520114899,
+          0.0231533628,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.2943978659
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "steak",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.4
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7605245709,
+          0.2663556337,
+          0.0595112443,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5748856707
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "01_Bun_top_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "06_Bun_bottom_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "04_Steak_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
+          },
+          "indices": 10,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "03_Cheese_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 12,
+            "POSITION": 11
+          },
+          "indices": 13,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "02_Tomato_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 15,
+            "POSITION": 14
+          },
+          "indices": 16,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "05_Salad_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 18,
+            "POSITION": 17
+          },
+          "indices": 19,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "00_Sesame_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20
+          },
+          "indices": 22,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        3.9161999999999995,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.9161999999999995,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.71552,
+        0.0,
+        0.0,
+        0.0,
+        0.82813,
+        1.0
+      ],
+      "name": "01_Bun_top"
+    },
+    {
+      "mesh": 0,
+      "name": "01_Bun_top_0"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        3.60787,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.60787,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.89046,
+        0.0,
+        0.0,
+        0.0,
+        -2.52348,
+        1.0
+      ],
+      "name": "06_Bun_bottom"
+    },
+    {
+      "mesh": 1,
+      "name": "06_Bun_bottom_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        3.5633300000000006,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.5633300000000006,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8972800000000001,
+        0.0,
+        0.0,
+        0.0,
+        -0.81781,
+        1.0
+      ],
+      "name": "04_Steak"
+    },
+    {
+      "mesh": 2,
+      "name": "04_Steak_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        3.8449,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.8449,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.88745,
+        0.0,
+        0.0,
+        -0.2898800000000001,
+        0.017490000000000006,
+        1.0
+      ],
+      "name": "03_Cheese"
+    },
+    {
+      "mesh": 3,
+      "name": "03_Cheese_0"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        3.43343,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.43343,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2001,
+        0.0,
+        0.0,
+        0.0,
+        0.45343,
+        1.0
+      ],
+      "name": "02_Tomato"
+    },
+    {
+      "mesh": 4,
+      "name": "02_Tomato_0"
+    },
+    {
+      "children": [
+        13
+      ],
+      "matrix": [
+        3.87318,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.87318,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.655449999999999,
+        0.0,
+        0.0,
+        0.0,
+        -1.81935,
+        1.0
+      ],
+      "name": "05_Salad"
+    },
+    {
+      "mesh": 5,
+      "name": "05_Salad_0"
+    },
+    {
+      "children": [
+        15
+      ],
+      "matrix": [
+        0.39376000000000005,
+        -0.90442,
+        -0.16425000000000003,
+        0.0,
+        0.6395200000000001,
+        0.14119,
+        0.7557000000000001,
+        0.0,
+        -0.6602800000000001,
+        -0.40261,
+        0.6339900000000002,
+        0.0,
+        -5.060179999999999,
+        -2.57451,
+        13.03676,
+        1.0
+      ],
+      "name": "Sun"
+    },
+    {
+      "name": "Sun"
+    },
+    {
+      "children": [
+        17
+      ],
+      "matrix": [
+        0.5986100000000001,
+        -0.054230000000000014,
+        -0.79921,
+        0.0,
+        0.7907900000000001,
+        0.19914000000000004,
+        0.5787900000000001,
+        0.0,
+        0.12777,
+        -0.97847,
+        0.16209000000000004,
+        0.0,
+        8.546249999999999,
+        -2.57451,
+        11.13054,
+        1.0
+      ],
+      "name": "Sun.001"
+    },
+    {
+      "name": "Sun.001"
+    },
+    {
+      "children": [
+        19
+      ],
+      "matrix": [
+        0.45551,
+        -0.3328100000000001,
+        -0.1203,
+        0.0,
+        0.18645000000000003,
+        0.3923600000000001,
+        -0.37950000000000006,
+        0.0,
+        0.30079,
+        0.26080000000000003,
+        0.41742000000000007,
+        0.0,
+        -2.76155,
+        -0.9794099999999999,
+        3.13182,
+        1.0
+      ],
+      "name": "00_Sesame"
+    },
+    {
+      "mesh": 6,
+      "name": "00_Sesame_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
